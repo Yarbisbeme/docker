@@ -1,0 +1,7 @@
+services:
+  miniserver:
+    image: nginx
+    volumes:
+    - ./src:/usr/share/nginx
+    ports:
+    - "8080:80"
